@@ -3,8 +3,9 @@ import React from "react";
 const Header = ()=>{
     return (
 
-        <header className="top_panel top_panel_custom top_panel_custom_42 top_panel_custom_header-fullwidth-simple without_bg_image scheme_dark">
-          <div className="vc_row wpb_row vc_row-fluid vc_custom_1494938325691 vc_row-has-fill vc_row-o-equal-height vc_row-o-content-middle vc_row-flex sc_layouts_row sc_layouts_row_type_compact sc_layouts_row_fixed scheme_dark">
+        <header className="top_panel top_panel_custom top_panel_custom_42 top_panel_custom_header-fullwidth-simple without_bg_image scheme_dark m-0">
+          <div className="vc_row wpb_row vc_row-fluid vc_custom_1494938325691 vc_row-has-fill vc_row-o-equal-height vc_row-o-content-middle vc_row-flex sc_layouts_row sc_layouts_row_type_compact sc_layouts_row_fixed scheme_dark space-between">
+           <div className="vc_row ">
             <div className="wpb_column vc_column_container vc_col-sm-2 vc_col-has-fill sc_layouts_column sc_layouts_column_align_center sc_layouts_column_icons_position_left">
               <div className="vc_column-inner vc_custom_1495020648352">
                 <div className="wpb_wrapper">
@@ -115,6 +116,7 @@ const Header = ()=>{
                 </div>
               </div>
             </div>
+            </div>
             <div className="wpb_column vc_column_container vc_col-sm-3 vc_col-has-fill sc_layouts_column sc_layouts_column_align_center sc_layouts_column_icons_position_left">
               <div className="vc_column-inner vc_custom_1496326619518">
                 <div className="wpb_wrapper">
@@ -131,26 +133,6 @@ const Header = ()=>{
             </div>
           </div>
           <div className="sc_layouts_row_fixed_placeholder" style={{backgroundColor: 'rgb(28, 32, 26)'}} />
-          <div className="vc_row wpb_row vc_row-fluid vc_custom_1495196100257 vc_row-has-fill sc_layouts_row sc_layouts_row_type_normal sc_layouts_hide_on_frontpage scheme_dark">
-            <div className="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column sc_layouts_column_align_center sc_layouts_column_icons_position_left">
-              <div className="vc_column-inner">
-                <div className="wpb_wrapper">
-                  <div id="sc_content_170140230" className="sc_content color_style_default sc_content_default sc_float_center sc_content_width_1_1">
-                    <div className="sc_content_container">
-                      <div className="sc_layouts_item">
-                        <div id="sc_layouts_title_851563643" className="sc_layouts_title">
-                          <div className="sc_layouts_title_title">
-                            <h1 className="sc_layouts_title_caption">Home</h1>
-                          </div>
-                          <div className="sc_layouts_title_breadcrumbs" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </header>
       );
 
